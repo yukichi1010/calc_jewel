@@ -59,7 +59,7 @@ def main():
     jewel = st.number_input('ジュエルの数', value=0)
     ticket = st.number_input('チケットの数', value=0)
     times = st.number_input('安いやつの残り', value=0)
-    guaranteed_cnt = st.number_input('天井する回数', value=0)
+    guaranteed_cnt = st.number_input('天井する回数', value=1)
     # mode = st.selectbox('算出モード設定', ['1万円単位', '最安値'])
     # '算出モード：', mode
 
